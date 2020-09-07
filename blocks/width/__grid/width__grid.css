@@ -1,0 +1,10 @@
+.width__grid{
+    width: 90vw;
+    max-width: 1280px;
+}
+
+@media screen and (min-width: 1024px) {
+    .width__grid{
+        width: calc(100vw - 96px);
+    }  
+ }
