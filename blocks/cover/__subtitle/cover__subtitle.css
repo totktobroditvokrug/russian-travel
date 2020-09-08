@@ -2,11 +2,19 @@
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    /* or 114% */
-    
+    font-size: 4.4vw;
+    line-height: 1.14;
     text-align: center;
-    
-    color: #FFFFFF;   
+    color: #FFFFFF;
+    width: 70%;
+    max-width: 560px;
+    position: relative;   
+    z-index: 2;
+    margin: 0;
 }
+
+@media screen and (min-width: 409px) {
+    .cover__subtitle{
+        font-size: 18px;
+    }  
+ }

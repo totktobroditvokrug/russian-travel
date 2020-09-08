@@ -1,4 +1,8 @@
 .place__image{
-    width: 320px;
-    background-position: cover;
+    width: 100%;
+    height: auto;
+ /*   background-size: contain; */
+    object-fit: contain;
+    box-sizing: border-box;
+    align-self: start;
 }

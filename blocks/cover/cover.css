@@ -1,4 +1,14 @@
 .cover{
-    width: 320px;
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 63vw;
+    max-width: 1184px;
+    max-height: 740px;
+    margin:0 auto;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
 }

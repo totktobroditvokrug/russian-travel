@@ -4,7 +4,7 @@
     align-items: flex-end; /* ? */
     
     min-height: 42px;
-    min-width: 320px;
+ /*   min-width: 320px; */
     margin: 5vw 5vw 0;
     box-sizing: border-box;
     position: relative;
