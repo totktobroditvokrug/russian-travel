@@ -1,17 +1,16 @@
 .page{
-  display: block;
+ display: block;
 /*  min-width: 320px; */
   background: #2A2C2F;
   margin: 0 auto;
   position: relative;
-  box-sizing: border-box;
-
-
+/*  box-sizing: border-box; */
+ 
   font-family: 'Inter';
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-/*  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%; */
+  -moz-text-size-adjust: 100%;
    text-rendering: optimizeLegibility;
 }

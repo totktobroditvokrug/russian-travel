@@ -4,8 +4,9 @@
     justify-content: flex-start;
     align-items: flex-start;
     box-sizing: border-box;
-    margin: 40px auto 24px;
+    padding: 40px 0 24px;
     position: relative;
+    margin:0 auto;
 }
 
 @media screen and (min-width: 900px) {
