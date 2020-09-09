@@ -1,5 +1,6 @@
 .footer__link{
-    font-family: Inter;
+    display: flex;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -10,3 +11,9 @@
     padding-top: 32px;
 }
 
+
+.footer__link:hover{
+    opacity: 0.5; 
+    transition: opacity 0.5s;
+    text-decoration: underline;
+}

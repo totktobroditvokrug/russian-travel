@@ -1,16 +1,18 @@
-.footer{
+.footer__links{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     box-sizing: border-box;
-    margin: 40px auto 24px;
-    position: relative;
+
+    list-style-type: none;
+    padding-left: 0;
+    margin:0;
 }
 
 @media screen and (min-width: 900px) {
-    .footer{
+    .footer__links{
         flex-direction: row;
         align-items: flex-end;
-    } 
-}
+    }  
+ }

@@ -1,17 +1,11 @@
 .lead__title{
-    font-family: Inter;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     font-size: 12vw;
     line-height: 1.1;
-/* or 110% */
-
     text-align: center;
-
     color: #FFFFFF;
- /*   margin: 0 auto; */
- /*   margin: 48px 5vw 0;
-    margin: auto; */
     margin: 48px auto 0;
     width: 90vw;
 }

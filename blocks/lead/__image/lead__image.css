@@ -1,12 +1,28 @@
 .lead__image{
-    width: 100vw;
+    width: 100%; /* 100vw не работает в мозилле и яндексе */
     background-size: contain;
     box-sizing: border-box;
     max-width: 984px;
 }
 
+/* переделать медиазапрос, с этим мелькает прокрутка на 700-768 */
+
+/*
 @media screen and (min-width: 768px) {
     .lead__image{
-        width: calc(100vw - (100vw - 768px)*0.375);
+        width: calc(100% - (100% - 768px)*0.3); 
+    }  
+ }
+*/
+
+@media screen and (min-width: 785px) {
+    .lead__image{
+        width: calc(768px + (100% - 768px)/1.6);
+    }  
+ }
+
+@media screen and (min-width: 1024px) {
+    .lead__image{
+        width: calc(928px + (100% - 1024px)/4.57);
     }  
  }

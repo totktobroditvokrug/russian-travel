@@ -1,5 +1,14 @@
 .place__website{
     display: none;
+    flex-direction: column;
     box-sizing: border-box;
     align-self: end;
 }
+
+@media screen and (min-width: 500px) {
+
+    .place__website{
+       display: flex;
+    }
+ } 
+ 

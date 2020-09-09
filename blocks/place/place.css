@@ -16,9 +16,6 @@
    .place{
       grid-template-columns: repeat(2, 1fr);
    }  
-   .place__website{
-      display: block !important;
-   }
 } 
 
 @media screen and (min-width: 1250px) {

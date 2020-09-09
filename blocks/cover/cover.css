@@ -3,10 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%; /* 100vw работает только в хроме */
     height: 63vw;
     max-width: 1184px;
     max-height: 740px;
+    text-decoration: none;
     margin:0 auto;
     box-sizing: border-box;
     position: relative;
