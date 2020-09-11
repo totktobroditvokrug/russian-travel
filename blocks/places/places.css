@@ -9,7 +9,21 @@
     padding-left: 0;
     margin-top: 20vw;
    
+    width: 100%;
+    max-width: 984px;
 }
+
+@media screen and (min-width: 600px) {
+    .places{
+        width: 90vw;
+    }  
+ }
+
+ @media screen and (min-width: 1024px) {
+    .places{
+        width: calc(928px + (100vw - 1024px)/4.57);
+    }  
+ }
 
 @media screen and (min-width: 440px) {
     .places{

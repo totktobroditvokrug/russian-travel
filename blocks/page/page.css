@@ -1,16 +1,47 @@
 .page{
  display: block;
-/*  min-width: 320px; */
+
   background: #2A2C2F;
   margin: 0 auto;
   position: relative;
-/*  box-sizing: border-box; */
+  box-sizing: border-box;
  
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
    text-rendering: optimizeLegibility;
+
+ /*  overflow: hidden;  /* эксперимент */
 }
+
+/* Дежурная разметка */
+
+/*
+div {
+  border: 1px solid red;
+}
+
+
+section {
+  border: 1px solid blue;
+}
+
+
+p {
+  border: 1px solid green;
+  color: white;
+}
+
+ul, h2, h3, h4{
+  border: 1px dashed rgb(255, 0, 55);
+}
+h5{
+  border: 1px solid yellow;
+}
+img{
+  border: 1px dashed black;
+}
+*/

@@ -7,9 +7,22 @@
     height: 63vw;
     max-width: 1184px;
     max-height: 740px;
-    text-decoration: none;
     margin:0 auto;
     box-sizing: border-box;
     position: relative;
     z-index: 1;
+    margin-top: 32px;
+    padding-top: 12px;
 }
+
+@media screen and (min-width: 600px) {
+    .cover{
+        margin-top: 16px;
+    }  
+ }
+
+ @media screen and (min-width: 900px) {
+    .cover{
+        margin-top: 8px;
+    }  
+ }

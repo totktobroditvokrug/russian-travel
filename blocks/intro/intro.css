@@ -5,7 +5,7 @@
     box-sizing: border-box;
  /*   min-width: 320px; */
     margin: 0 auto;
-    margin-top: 20vw;
+    margin-top: 21vw;
     margin-bottom: 20vw;
 }
 
@@ -13,5 +13,12 @@
     .intro{
         margin-top: 88px;
         margin-bottom: 88px; 
+    }  
+ }
+
+ @media screen and (min-width: 1024px) {
+    .intro{
+        margin-top: 92px;
+        margin-bottom: 92px; 
     }  
  }

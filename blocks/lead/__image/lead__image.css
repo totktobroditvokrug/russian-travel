@@ -1,16 +1,32 @@
 .lead__image{
     width: 100%; /* 100vw не работает в мозилле и яндексе */
-    background-size: contain;
+ /*   height: 63vw; */
+    background-size: cover;
     box-sizing: border-box;
     max-width: 984px;
+  /*  max-height: 615px; */
+    margin-top: 11vw;
 }
 
-/* переделать медиазапрос, с этим мелькает прокрутка на 700-768 */
+/* Изображение не соответствует фигме? */
 
-/*
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 510px) {
     .lead__image{
-        width: calc(100% - (100% - 768px)*0.3); 
+        margin-top: 56px;
+    }  
+ }
+/*
+@media screen and (min-width: 750px) {
+    .lead__image{
+        height: 62vw;
+    }  
+ }
+*/
+/*
+ @media screen and (min-width: 900px) {
+    .lead__image{
+        height: 56vw;
     }  
  }
 */

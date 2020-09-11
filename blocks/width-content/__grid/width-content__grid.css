@@ -1,0 +1,15 @@
+.width-content__grid{
+    width: 90vw;
+}
+
+@media screen and (min-width: 700px) {
+    .width-content__grid{
+        width: 94vw;
+    }  
+ }
+
+@media screen and (min-width: 1024px) {
+    .width-content__grid{
+        width: calc(100vw - 96px);
+    }  
+ }

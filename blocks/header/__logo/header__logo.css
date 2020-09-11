@@ -1,8 +1,5 @@
 .header__logo{
-  position: absolute;
-   left: 0;
-   top: 1vw;
-/*   align-self: flex-start;*/
+ /*  align-self: flex-end; */
    height: 13vw;
 }
 

@@ -1,10 +1,10 @@
-.width__block{
+.width-content__block{
     width: 90vw;
     max-width: 984px;
 }
 
 @media screen and (min-width: 1024px) {
-    .width__block{
+    .width-content__block{
         width: calc(928px + (100vw - 1024px)/4.57);
     }  
  }

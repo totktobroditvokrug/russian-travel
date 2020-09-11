@@ -10,13 +10,20 @@ line-height: 1.25;
 text-align: center;
 
 color: #FFFFFF;
-margin: 16px auto 0;
-width: 90vw;
+margin: 5vw auto 0;
+/* width: 90vw; */
 }
 
 @media screen and (min-width: 600px) {
     .lead__subtitle{
         font-size: 30px;
+        line-height: 36px;
+    }  
+ }
+
+ @media screen and (min-width: 640px) {
+    .lead__subtitle{
+        margin-top: 32px;
     }  
  }
 

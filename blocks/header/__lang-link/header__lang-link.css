@@ -2,15 +2,22 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 5.6vw;
+    line-height: 1.1;
     text-align: right;
     padding-left: 18px;
     color: #FFFFFF;
     margin: 0;
+    text-decoration: none;   
+    transition: opacity 0.5s; 
 }
 
 .header__lang-link:hover{
     opacity: 0.5; 
-    transition: opacity 0.5s;
+  }
+
+ @media screen and (min-width: 429px) {
+    .header__lang-link{
+        font-size: 24px;
+    }  
  }

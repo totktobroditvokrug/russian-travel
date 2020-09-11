@@ -5,4 +5,6 @@
     object-fit: contain;
     box-sizing: border-box;
     align-self: start;
+    min-width: 200px;
+  /*  overflow: visible; */
 }
