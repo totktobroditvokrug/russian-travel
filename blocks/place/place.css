@@ -1,5 +1,5 @@
 .place{
-    display: grid;
+   display: grid;
    justify-content: stretch;
    align-items: stretch;
    grid-template-columns: 1fr;
@@ -9,31 +9,42 @@
    margin: 0 auto;
    box-sizing: border-box;
    margin-bottom: 15vw;
-/*   width: 100vw; */
 }
 
 @media screen and (min-width: 600px) {
    .place{
-    /*grid-template-columns: 48.7% 51.3%;*/  /* с процентами текст выходит за пределы блока */
-    grid-template-columns: 48fr 52fr;
+    grid-template-columns: 48fr 51fr;
+    column-gap: 3.6vw;
    }  
 } 
 
 @media screen and (min-width: 1250px) {
    .place{
-      column-gap: 40px; 
+      column-gap: 42px; 
    } 
 }
 
    @media screen and (min-width: 480px) {
       .place{
-          margin-bottom: 72px;
+          margin-bottom: 74px;
           row-gap: 48px;
       }  
    }
   
-   @media screen and (min-width: 1024px) {
+   @media screen and (min-width: 1000px) {
+      .place{
+          margin-bottom: 92px;
+          row-gap: 41px;
+          column-gap: 32px;
+      }  
+   }
+
+   @media screen and (min-width: 1100px) {
       .place{
           margin-bottom: 80px;
-      }  
+          row-gap: 45px;
+      }
+   /*   .place:last-child{
+         margin-bottom: 72px;      
+      } */
    }

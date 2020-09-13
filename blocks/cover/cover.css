@@ -4,25 +4,42 @@
     justify-content: center;
     align-items: center;
     width: 100%; /* 100vw работает только в хроме */
-    height: 63vw;
+    height: 62.5vw;
     max-width: 1184px;
     max-height: 740px;
     margin:0 auto;
     box-sizing: border-box;
     position: relative;
-    z-index: 1;
-    margin-top: 32px;
+    margin-top: 16px;
     padding-top: 12px;
+
+    background-image: url(../../images/cover-trains.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+     /*   object-fit: contain; */
+    
 }
 
+/*
 @media screen and (min-width: 600px) {
     .cover{
         margin-top: 16px;
     }  
  }
+*/
 
  @media screen and (min-width: 900px) {
     .cover{
-        margin-top: 8px;
+        margin-top: 0;
+        padding-top: 0;
     }  
  }
+
+ @media screen and (min-width: 1100px) {
+    .cover{
+        margin-top: 18px;
+
+    }  
+ }
+ 

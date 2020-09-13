@@ -1,5 +1,5 @@
 .footer__copyright{
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -9,7 +9,7 @@
     padding-top: 48px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 760px) {
     .footer__copyright{
         align-self: flex-end;
     }

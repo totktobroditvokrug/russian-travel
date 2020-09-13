@@ -13,19 +13,18 @@
     margin: 0 auto;
 }
 
-/*
+
 @media screen and (min-width: 700px) {
-   .header{
-       width: 94vw;
-   }  
-}
+    .header{
+        width: 94vw;
+    }  
+ }
 
 @media screen and (min-width: 1024px) {
-   .header{
-       width: calc(100vw - 96px);
-   }  
-}
-*/
+    .header{
+        width: calc(100vw - 96px);
+    }  
+ }
 
 @media screen and (min-width: 760px) {
    .header{

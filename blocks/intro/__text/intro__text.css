@@ -1,12 +1,20 @@
 .intro__text{
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 1.63;
+    line-height: 163%;
     color: #FFFFFF;
-    margin: 40px 0 32px;
-
-    max-width: 690px;
+    margin: 34px 0 36px;
+    box-sizing: border-box;
+    text-align: left;
+    width: 100%;
+  /*  max-width: 690px; */
   /*  padding-right: 2px; */
+}
+
+@media screen and (min-width: 800px) {
+  .intro__text{
+      width: 690px;
+  }  
 }

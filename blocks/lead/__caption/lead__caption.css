@@ -1,14 +1,40 @@
 .lead__caption{
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 14px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  text-align: left;
-  margin: 0;
-  padding-top: 8px;
- /* align-self: start; */
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 0;
+    padding-top: 8px;
+  /*  align-self: start;  */
+    box-sizing: border-box;
+    width: 90vw;
+    max-width: 984px;
+  /*  padding-left: 5vw; */
+}
+
+
+@media screen and (min-width: 480px) {
+  .lead__caption{
+  /*  padding-left: 24px; */
+    width: calc(100vw - 48px);
+  }  
+}
+
+@media screen and (min-width: 900px) {
+  .lead__caption{
+  /*  padding-left: 24px; */
+  /*  width: calc(100vw - 48px); */
+      width: calc(768px + (100% - 768px)/1.6);
+  }  
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__caption{
+      width: calc(928px + (100vw - 1024px)/4.57);
+  }  
 }

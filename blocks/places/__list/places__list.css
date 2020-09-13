@@ -1,0 +1,7 @@
+.places__list{
+    box-sizing: border-box;
+    /*   min-width: 320px; */
+    list-style-type: none;  /* без этого стиля почему-то не было маркеров */
+    padding-left: 0;
+    margin: 0;
+}

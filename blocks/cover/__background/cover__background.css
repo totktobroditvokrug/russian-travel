@@ -1,5 +1,11 @@
 .cover__background{
-    background-image: url(../../../images/cover-trains.jpg);
-    background-size: cover;
- /*   object-fit: contain; */
+    width: 100%;
+    max-width: 1184px;
+    position: relative;
+    z-index: 1;
+    /*   object-fit: contain; */
 }
+
+
+
+/* <img class="cover__background" src="images/cover-trains.jpg" alt="Поезда"> */

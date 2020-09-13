@@ -1,5 +1,5 @@
 .place__paragraph{
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -11,8 +11,8 @@
     padding-bottom: 24px;
     padding-left: 16px;
     padding-right: 16px;
-
-    overflow-x:hidden;
+    text-align: left;
+ /*   overflow-x:hidden; */
 }
 
 .place__paragraph:last-child{
